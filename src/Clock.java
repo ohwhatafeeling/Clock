@@ -24,7 +24,8 @@ public class Clock extends JFrame {
 		this.setResizable(false);
 		this.setLayout(new FlowLayout());
 		this.setLocationRelativeTo(null);
-		this.setTitle("Clock");
+		this.setTitle("Mick's awesome clock");
+		this.getContentPane().setBackground(new Color(0xd7e4f7));
 		
 		timeLabel = new JLabel();
 		timeLabel.setFont(new Font(null, Font.PLAIN, 50));
